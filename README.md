@@ -67,7 +67,7 @@ Based on EDA and ML modeling performed on 240k+ games:
 
 This project was developed during the **Workintech Data Science Bootcamp**:
 
-* **Atakan Can** (EDA, BigQuery Integration, ML Modeling) - [LinkedIn](YOUR_LINKEDIN_LINK_HERE)
+* **Atakan Can**
 * **Berkay Turhan** - [LinkedIn](https://www.linkedin.com/in/rberkayturhan/)
 * **Tümay Turhan**
 * **D. Hazal Tuncay**
