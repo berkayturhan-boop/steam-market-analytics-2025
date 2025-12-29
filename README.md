@@ -1,71 +1,75 @@
 # 🎮 Steam Market Analytics & Price Prediction 2025
 
-![Project Banner](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python) ![BigQuery](https://img.shields.io/badge/Google_Cloud-BigQuery-yellow?style=for-the-badge&logo=googlecloud)
+![Project Banner](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python) ![BigQuery](https://img.shields.io/badge/Google_Cloud-BigQuery-yellow?style=for-the-badge&logo=googlecloud) ![dbt](https://img.shields.io/badge/dbt-Data_Modeling-orange?style=for-the-badge)
 
 <p align="center">
-  <img src="header_image.png" alt="Steam Fiyat Tahmin AI Arayüzü" width="100%">
+  <img src="header_image.png" alt="Steam Price Prediction AI Interface" width="100%">
 </p>
 
-Bu proje, **Team 6** tarafından Steam 2025 veri seti (240.000+ oyun) kullanılarak gerçekleştirilen uçtan uca (End-to-End) bir veri bilimi ve veri mühendisliği çalışmasıdır.
+This project is an **End-to-End Data Science & Engineering** study conducted by **Team 6**, utilizing the Steam 2025 dataset (240,000+ games) to analyze market trends and predict optimal game pricing.
 
-## 🔗 Hızlı Erişim (Canlı Demo & Dokümantasyon)
+## 🔗 Quick Access (Live Demo & Docs)
 
-Projenin interaktif çıktılarına ve veri mimarisine aşağıdaki butonlardan doğrudan ulaşabilirsiniz:
+Explore the interactive dashboards, project management, and data architecture directly via the links below:
 
-| Platform | İçerik | Link |
+| Platform | Content | Access Link |
 |----------|--------|------|
-| 📊 **Dashboard** | Canlı Rapor (Looker Studio) | [👉 Raporu Görüntüle](https://lookerstudio.google.com/reporting/cb3b8cb6-710c-40ad-aeac-3e0244427d2b) |
-| 📝 **Notion** | Task Yönetimi & Süreç | [👉 Notion Sayfasına Git](https://www.notion.so) |
-| 🗺️ **Şema** | Veri Mimarisi (tldraw) | [👉 Mimariyi Görüntüle](https://www.tldraw.com/f/A1G0ucpf2pwONYo6cEshK?d=v-660.343.2143.1220.page) |
+| 📊 **Dashboard** | Live Report (Looker Studio) | [👉 View Dashboard](https://lookerstudio.google.com/reporting/cb3b8cb6-710c-40ad-aeac-3e0244427d2b) |
+| 📝 **Notion** | Task Management & Process | [👉 View Notion Workspace](https://www.notion.so/2bdcf832f67181ce8d3b000c2d86aca0?v=2bdcf832f67181ce8d3b000c2d86aca0) |
+| 🗺️ **Schema** | Data Architecture (tldraw) | [👉 View Architecture](https://www.tldraw.com/f/A1G0ucpf2pwONYo6cEshK?d=v-660.343.2143.1220.page) |
 
 ---
 
-## 📌 Proje Hakkında
+## 📌 Project Overview
 
-**Temel Hedef:** Oyun sektöründeki fiyatlandırma dinamiklerini çözmek, pazar trendlerini analiz etmek ve oyunların teknik/kategorik özelliklerini kullanarak ideal piyasa fiyatını tahmin eden Makine Öğrenmesi modelleri geliştirmektir.
+**Objective:** To decode pricing dynamics in the gaming industry, analyze historical market trends, and develop Machine Learning models that predict the "ideal market price" of a game based on its technical and categorical features.
 
-### 🛠️ Tech Stack (Kullanılan Teknolojiler)
-Proje, "Modern Data Stack" prensiplerine uygun olarak bulut tabanlı bir mimaride geliştirilmiştir.
+### 🛠️ Tech Stack
+The project follows **Modern Data Stack** principles within a cloud-based architecture:
 
-* **Veri Mühendisliği & Depolama:**
-    * 🔵 **Google BigQuery:** Veri Ambarı (Data Warehouse).
-    * 🛠 **dbt Cloud:** Veri Modelleme (Staging → Intermediate → Mart).
-* **Veri Bilimi & Analitik:**
-    * 🐍 **Python & SQL:** EDA, Veri Temizleme, Dönüşümler.
-    * 📓 **Google Colab:** Kodlama ve model geliştirme ortamı.
-* **Görselleştirme & Yönetim:**
-    * 📊 **Looker Studio:** Dinamik dashboard.
-    * 📅 **Notion & Slack:** Agile proje yönetimi.
-
----
-
-## 💻 Geliştirme Ortamı (Colab Notebooks)
-
-Geliştirme aşamasındaki kodlara ve analiz geçmişine aşağıdaki orijinal çalışma dosyalarından erişebilirsiniz:
-
-* [📍 Veri Analizi ve Temizleme (Colab - Atakan)](https://colab.research.google.com/drive/1Npm3eXjAuRlqyh1xjXoa5TEUOHXBZpt2?usp=sharing)
-* [📍 ML Fiyat Tahmin Modeli (Colab)](https://colab.research.google.com/drive/14pPPDY8fjeyvG1WMxdwVITJl8HpaOktB?usp=sharing)
+* **Data Engineering & Storage:**
+    * 🔵 **Google BigQuery:** Data Warehouse (Centralized storage for raw and processed data).
+    * 🛠 **dbt Cloud:** Data Modeling (Transformation flow: Staging → Intermediate → Mart).
+* **Data Science & Analytics:**
+    * 🐍 **Python & SQL:** EDA (Exploratory Data Analysis), Data Cleaning, Feature Engineering.
+    * 📓 **Google Colab:** Cloud-based development environment.
+* **Visualization & Management:**
+    * 📊 **Looker Studio:** Interactive dashboards for end-users.
+    * 📅 **Notion & Slack:** Agile project management and sprint tracking.
 
 ---
 
-## 📊 Veriye Dayalı Temel İçgörüler (Key Insights)
+## 💻 Development & Code
 
-240.000'den fazla oyun verisi üzerinde yapılan EDA ve ML çalışmaları sonucu:
+You can access the source code and development notebooks directly in this repository:
 
-1.  **💰 Enflasyonist Baskı:** 2021-2025 arasında oyun fiyatlarında **%22'nin üzerinde artış** gözlemlendi.
-2.  **🖥️ Donanım Maliyeti:** "High" sistem gereksinimi olan oyunlar, ortalamadan **%60 daha yüksek** fiyata sahip.
-3.  **📉 Fiyat-Kalite Paradoksu:** Fiyat ile Metacritic puanı arasında sadece **0.23 (Zayıf Pozitif)** korelasyon var. Pahalı oyun her zaman kaliteli demek değil.
-4.  **🚀 Üstel Büyüme:** Pazar doygunluğu artıyor, Indie geliştiriciler için "görünürlük" en büyük sorun.
+* [📍 **Market Trends Analysis (Time Series)**](./Model_1_Pazar_Tahmini.ipynb)
+    * *Analysis of market growth, release frequency, and indie developer trends.*
+* [📍 **Price Prediction Model (ML)**](./Steam_Oyun_Fiyatı_Tahminlemesi_Modeli.ipynb)
+    * *Regression model predicting game prices based on hardware requirements and genre.*
+
+*(Original Development Environment: [Colab Notebook - Atakan](https://colab.research.google.com/drive/1aIPNEOXNLj3kggDIEiEE3CWWAM_HHg_3?usp=sharing))*
 
 ---
 
-## 👥 Takım (Team 6)
+## 📊 Key Data Insights
 
-Bu proje **Workintech Data Science Bootcamp** kapsamında aşağıdaki ekip tarafından geliştirilmiştir:
+Based on EDA and ML modeling performed on 240k+ games:
 
-* **Atakan Can** (Veri Analizi, BigQuery Entegrasyonu, ML Modelleme)
+1.  **💰 Inflationary Pressure:** Between 2021-2025, the average game price increased by over **22%**.
+2.  **🖥️ Hardware Costs:** Games requiring "High" system specs are priced **~60% higher** than the market average.
+3.  **📉 Price-Quality Paradox:** There is a weak positive correlation (**0.23**) between Price and Metacritic scores. *Higher price does not guarantee higher player satisfaction.*
+4.  **🚀 Exponential Saturation:** The market is growing exponentially, making "discoverability" the primary challenge for Indie developers.
+
+---
+
+## 👥 The Team (Team 6)
+
+This project was developed during the **Workintech Data Science Bootcamp**:
+
+* **Atakan Can** (EDA, BigQuery Integration, ML Modeling) - [LinkedIn](YOUR_LINKEDIN_LINK_HERE)
+* **Berkay Turhan** - [LinkedIn](https://www.linkedin.com/in/rberkayturhan/)
 * **Tümay Turhan**
-* **Berkay Turhan**
 * **D. Hazal Tuncay**
 
 ---
