@@ -67,8 +67,8 @@ Based on EDA and ML modeling performed on 240k+ games:
 
 This project was developed during the **Workintech Data Science Bootcamp**:
 
-* **Atakan Can**
 * **Berkay Turhan** - [LinkedIn](https://www.linkedin.com/in/rberkayturhan/)
+* **Atakan Can**
 * **Tümay Turhan**
 * **D. Hazal Tuncay**
 
