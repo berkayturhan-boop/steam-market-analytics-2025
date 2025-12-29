@@ -15,7 +15,7 @@ Explore the interactive dashboards, project management, and data architecture di
 | Platform | Content | Access Link |
 |----------|--------|------|
 | 📊 **Dashboard** | Live Report (Looker Studio) | [👉 View Dashboard](https://lookerstudio.google.com/reporting/14eafbaa-cbb1-4a15-baf2-8e5f128a12e3) |
-| 📝 **Notion** | Task Management & Process | [👉 View Notion Workspace](https://www.notion.so/2bdcf832f67181ce8d3b000c2d86aca0?v=2bdcf832f67181ce8d3b000c2d86aca0) |
+| 📝 **Notion** | Task Management & Process | [👉 View Notion Workspace](https://amazing-journey-b60.notion.site/2bdcf832f671801bbc18fc2105b09106?v=2bdcf832f67181ce8d3b000c2d86aca0&source=copy_link) |
 | 🗺️ **Schema** | Data Architecture (tldraw) | [👉 View Architecture](https://www.tldraw.com/f/A1G0ucpf2pwONYo6cEshK?d=v-660.343.2143.1220.page) |
 
 ---
